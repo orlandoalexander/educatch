@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Nunito, system-ui, sans-serif;
+  color: #000000;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.app--sidebar {
+  flex: 0 0 15%;
+}
+
+.app--content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem 1.5rem 1rem 1.5rem;
+  background-color: #F7F9FE;
+  box-sizing: border-box;
+}

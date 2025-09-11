@@ -1,0 +1,20 @@
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdown-container section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dropdown-container section > p {
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  width: 350px !important;
+  max-width: 350px !important;
+}

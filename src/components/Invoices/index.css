@@ -1,0 +1,36 @@
+.invoices--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoices--title > h3 {
+  align-self: flex-start;
+}
+
+.invoices--switch {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.invoices--switch > span {
+  font-size: 1rem;
+}
+
+.invoices--switch .ant-switch {
+  width: 3rem;
+}
+
+.invoices--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.invoices--invoice-view {
+  flex: 1;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: white;
+}

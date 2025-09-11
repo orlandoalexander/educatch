@@ -1,0 +1,34 @@
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 70%;
+  gap: 1rem;
+}
+
+.signin--logo {
+  max-width: 10%;
+}
+
+.signin--form {
+  width: 100%
+}
+
+.signin--form-footer {
+  margin-bottom: 10px;
+}
+
+.signin--form-remember {
+  float: left
+}
+
+.signin--form-forgot-password {
+  float: right
+}
+
+
+.signin--signup {
+  cursor: pointer;
+}

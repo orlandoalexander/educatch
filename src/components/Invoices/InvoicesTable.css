@@ -1,0 +1,15 @@
+.invoices--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ant-badge-status-processing {
+  background-color: var(--text-color-orange) !important;
+  color: var(--text-color-orange) !important;
+}
+
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin-right: 16px;
+}

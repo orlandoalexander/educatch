@@ -1,0 +1,113 @@
+.invoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 1rem;
+}
+
+.invoice--content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.invoice--title {
+  font-weight: 400;
+}
+
+.invoice--lessons {
+  font-size: 0.8rem;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.invoice--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.invoice--details > div {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.invoice--details-icon {
+  border-radius: 50%;
+  padding: 0.35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  pointer-events: none;
+}
+
+.invoice--total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--bg-color-dark-blue);
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.invoice--buttons {
+  margin-left: auto;
+}
+
+.calendar-icon {
+  background-color: var(--bg-color-light-blue);
+  color: var(--text-color-dark-blue);
+}
+
+.submitted-icon,
+.ready-icon,
+.paid-icon {
+  background-color: var(--bg-color-light-green);
+  color: var(--text-color-green);
+}
+
+.submitted-icon:hover,
+.ready-icon:hover,
+.paid-icon:hover {
+  color: var(--text-color-green);
+  filter: brightness(0.8);
+}
+
+.incomplete-icon {
+  background-color: var(--bg-color-light-orange);
+  color: var(--text-color-orange);
+}
+
+.incomplete-icon:hover {
+  color: var(--text-color-orange);
+  filter: brightness(0.8);
+}
+
+.empty-icon,
+.upcoming-icon {
+  background-color: var(--bg-color-light-red);
+  color: var(--text-color-red);
+}
+
+.empty-icon:hover,
+.upcoming-icon:hover {
+  color: var(--text-color-red);
+  filter: brightness(0.8);
+}
+
+.report-action {
+  background-color:transparent;
+}
+
+.invoice--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}

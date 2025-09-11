@@ -1,0 +1,127 @@
+.report {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-height: 70vh;
+}
+
+.report--title {
+  display: flex;
+  justify-content: center;
+}
+
+.report--title > h3 {
+  font-weight: 500;
+  color: var(--text-color-dark-blue);
+}
+
+.report--heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.report--details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem
+}
+
+.report--details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.report--details > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.report--details-icon {
+  border-radius: 50%;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  pointer-events: none;
+}
+
+.report--details-text {
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.icon {
+  background-color: var(--bg-color-light-blue);
+  color: var(--text-color-dark-blue);
+}
+
+.green-icon,
+.complete-icon,
+.submitted-icon {
+  background-color: var(--bg-color-light-green);
+  color: var(--text-color-green);
+}
+
+.orange-icon,
+.incomplete-icon {
+  background-color: var(--bg-color-light-orange);
+  color: var(--text-color-orange);
+}
+
+.red-icon,
+.empty-icon {
+  background-color: var(--bg-color-light-red);
+  color: var(--text-color-red);
+}
+
+.report--collapse {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.report--questions {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  gap: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.report--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.collapse--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapse--title {
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse--info {
+  display: flex;
+  gap: 1rem;
+}
+
+.collapse--info > a {
+  font-weight: 600;
+}
