@@ -1,0 +1,14 @@
+.reports--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin-right: 16px;
+}
+
+.safeguarding-row {
+  background-color: #fff1f0;
+}

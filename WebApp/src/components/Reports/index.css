@@ -1,0 +1,38 @@
+.reports--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reports--title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reports--switch {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.reports--switch > span {
+  font-size: 1rem;
+}
+
+.reports--switch .ant-switch {
+  width: 3rem;
+}
+
+.reports--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.reports--report-view {
+  flex: 1;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: white;
+}

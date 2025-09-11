@@ -1,0 +1,12 @@
+.table--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.table--add-button {
+  float: left;
+  margin-left: 1rem;
+  margin-top: -50px;
+}

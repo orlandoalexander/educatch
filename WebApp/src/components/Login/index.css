@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 70%;
+  gap: 1rem;
+}
+
+.login--logo {
+  max-width: 10%;
+}
+
+.login--form {
+  width: 100%
+}
+
+.login--form-password {
+  margin-bottom: 10px;
+}
+
+.login--form-remember {
+  float: left
+}
+
+.login--form-forgot-password {
+  float: right
+}
+
+.login--form-error {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  height: 1.5rem;
+}

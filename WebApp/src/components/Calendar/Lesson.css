@@ -1,0 +1,63 @@
+.lesson {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+
+.lesson--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.lesson--header-title {
+  color: var(--text-color-dark-blue);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lesson--header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-color-dark-gray);
+}
+
+.lesson--header-actions > button {
+  background-color: transparent;
+  padding: 0;
+}
+
+.lesson--details {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 0.5rem;
+  gap: 1.5rem;
+}
+
+.lesson--details > div {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.1em;
+}
+
+.lesson--details > div > p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lesson--details > div > p > span {
+  color: gray;
+  font-size: 0.8em;
+}
+
+.lesson--report-button {
+  margin-top: auto;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,82 @@
+:root {
+  font-family: Nunito, system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text-color-medium-blue: #27A5DE;
+  --text-color-dark-blue: #0A5E84;
+  --text-color-light-gray: #ACACAC;
+  --text-color-dark-gray: #6E6E6E;
+  --text-color-green: #048811;
+  --text-color-red: #8B0000;
+  --text-color-orange: #FFA500;
+  --bg-color-light-green: #7DD3865E;
+  --bg-color-light-red: #B0303037;
+  --bg-color-light-orange: #FFB34737;
+  --bg-color-light-blue: #6DD2FC33;
+  --bg-color-gray-blue: #0A5E841A;
+  --bg-color-dark-blue: #0A5E84;
+  --bg-color-darker-blue: #0c5679;
+  --bg-color-light-gray: #D9D9D95E;
+  --bg-color-medium-gray: #ACACAC5E;
+  --bg-color-dark-gray: #6E6E6E;
+}
+
+a {
+  font-weight: 500;
+  color: #27A5DE;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #0A5E84;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+button, .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  transition: border-color 0.25s;
+}
+
+.ant-message {
+  z-index: 999999999;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

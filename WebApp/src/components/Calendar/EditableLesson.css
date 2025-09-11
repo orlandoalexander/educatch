@@ -1,0 +1,38 @@
+.form--select {
+  display: flex;
+  text-align: left;
+}
+
+.form--picker {
+  display: flex;
+  max-width: 70%;
+}
+
+.form--buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form--input-number {
+  display: flex;
+  width: 8rem;
+}
+
+.form--switch {
+  display: flex;
+}
+
+.form--recurrence {
+  padding-left: 1rem;
+  width: 70%;
+  min-width: 11rem;
+}
+
+.form--recurrence-picker {
+  display: flex;
+}
+
+.ant-form-item-explain-error {
+  text-align: left !important;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,15 @@
+.settings--title {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.settings--title > h3 {
+  align-self: flex-start;
+}
+
+.settings--table {
+  flex: 1;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: white;
+}
