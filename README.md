@@ -1,4 +1,4 @@
-# Tutor Analytics & Operations Platform
+# Tutor Management & Analytics Platform
 
 A **data-driven platform** automating tutor planning, invoicing, and performance reporting for 50+ educators.  
 Reduced operational errors by **20%** and saved **10+ hours of administrative work weekly**.  
