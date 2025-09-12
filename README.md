@@ -6,6 +6,7 @@ Developed for **Educatch Charity** as a paid freelance project.
 
 [🔗 Click here to view demo](https://educatchcharity-demo.netlify.app)
 <br/>
+
 ## 🛠 Tech Stack
 - **Frontend:** React 18 (Vite, React Query, Ant Design, React Feather)  
 - **Backend:** Flask (REST API, JWT authentication, bcrypt for password security)  
