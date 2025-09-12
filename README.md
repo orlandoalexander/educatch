@@ -4,7 +4,7 @@ A **data-driven platform** automating tutor planning, invoicing, and performance
 Reduced operational errors by **20%** and saved **10+ hours of administrative work weekly**.
 Developed for **Educatch Charity** as a paid freelance project.
 
-[🔗 Click here to view demo](https://educatchcharity-demo.netlify.app)<br><br>
+🔗 [Click here to view demo](https://educatchcharity-demo.netlify.app)<br><br>
 
 ## 🛠 Tech Stack
 
