@@ -10,8 +10,10 @@ Developed for **Educatch Charity** as a paid freelance project.
 ## 🛠 Tech Stack
 - **Frontend:** React 18 (Vite, React Query, Ant Design, React Feather)  
 - **Backend:** Flask (REST API, JWT authentication, bcrypt for password security)  
-- **Database:** MySQL (Cloud SQL)  
-- **Deployment:** Google Cloud (Cloud Run + Cloud SQL) & Netlify for frontend  
+- **Database:** MySQL (Google Cloud SQL)  
+- **Deployment:** Netlify (frontend) and Dockerised Flask backend on Google Cloud Run
 
-## 📸 Screenshot
+
+## 📸 Screenshots of Platform
 <img width="1440" height="819" alt="Educatch Platform Screenshot" src="https://github.com/user-attachments/assets/fc545dce-5fad-4774-aff5-5d45bcc48fa8" />
+<img width="1440" height="818" alt="educatch-cover2" src="https://github.com/user-attachments/assets/f55890b4-3f20-41ff-bb19-f96c6a872a8a" />
