@@ -4,7 +4,7 @@
 
 Developed for **Educatch Charity** as a freelance **software developer**.
 
-🔗 <a href="https://educatchcharity-demo.netlify.app" target="_blank">Click here to view demo</a><br><br>
+🔗 [Click here to view demo](https://educatchcharity-demo.netlify.app)<br><br>
 
 
 ## 🛠 Tech Stack
