@@ -10,7 +10,7 @@ Developed for **Educatch Charity** as a freelance **software developer**.
 ## 🛠 Tech Stack
 
 - **Frontend:** React 18, Vite, React Query, Ant Design, React Feather
-- **Backend:** Flask (API + server logic) with JWT authentication and bcrypt for secure login, MySQL Connector for database interactions
+- **Backend:** Flask (API + server logic) with JWT authentication and bcrypt for secure login, using MySQL Connector for database interactions
 - **Database:** MySQL (hosted on Google Cloud SQL)  
 - **Deployment:** Netlify (frontend) and Google Cloud Run (dockerised backend)<br><br>
 
