@@ -1,8 +1,8 @@
 # Tutor Management & Analytics Platform
 
-**Data-driven platform** automating scheduling, invoicing, and performance reporting for 50+ tutors, **significantly reducing operational errors** and **saving 10+ hours of administrative work weekly**.
+**Data-driven platform** automating scheduling, invoicing, and attendance analytics for 50+ students, **saving 10+ hours of administrative work weekly** and **significantly reducing operational errors**.
 
-Developed for **Educatch Charity** as a freelance **software developer**.
+Developed for **Educatch Charity** as a freelance **full-stack software engineer**.
 
 🔗 [Click here to view demo](https://educatchcharity-demo.netlify.app)<br><br>
 
